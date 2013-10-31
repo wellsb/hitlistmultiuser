@@ -8,9 +8,9 @@ $sepPrefix = '00';
 
 // - Config - - - - - - - -
 $config_host = 'localhost';
-$config_user = 'moodletwotwouser';
-$config_pass = 'moodletwotwodashtwo';
-$config_data = 'moodle22-2';
+$config_user = 'something';
+$config_pass = 'something';
+$config_data = 'something';
 date_default_timezone_set('UTC');
 // - Config - - - - - - - -
 
