@@ -1,0 +1,14 @@
+It works like this
+
+genusers.php - this generates loads of users in a Moodle instance and logs them out to a file called users.out
+
+loader.php - loads users.out into an array, if 10 users worth of usage is needed;
+                picks the first 10 users from the array
+                loads hitlist.php supplying the username, password
+
+hitlist.php is configured with;
+    from config a base_url
+    from config a list of urls to hit
+    from config it is sent a username to use as an argv
+    it creates a sess_username.ses file in ./sessions
+    it sequentially hits the links
